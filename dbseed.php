@@ -25,7 +25,7 @@ EOS;
 
 try {
     $createTable = $dbConnection->exec($statement);
-    echo "Success!\n";
+    echo "Database has been created!\n";
 } catch (\PDOException $e) {
     exit($e->getMessage());
 }

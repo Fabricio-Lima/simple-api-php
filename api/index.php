@@ -1,5 +1,5 @@
 <?php
-require "../init.php";
+require "../bootstrap.php";
 
 use Src\Controllers\ClubController;
 
