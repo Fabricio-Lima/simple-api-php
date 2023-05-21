@@ -40,6 +40,19 @@ Inciciando servidor PHP:
 php -S 127.0.0.1:8000 -t api
 ```
 
+Endpoints:
+
+- Consumir saldo dos Recursos e dos Clubes (Use o método POST)
+
+```
+/clube/consumir
+```
+
+- Inserir novo Clube (Use o método POST) e lista todos os Clubes (Use o método GET)
+```
+/clube
+```
+
 ## Licença
 
 Apache 2.0, veja [LICENSE](LICENSE).
