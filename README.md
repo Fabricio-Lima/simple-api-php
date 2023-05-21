@@ -13,7 +13,7 @@ cd simple-api-php
 
 ### Configurando ambiente
 
-Crie e execute o banco de dados MySQL, da maniera de desejar.
+Crie e execute o banco de dados MySQL, da maneira de desejar.
 
 
 Copie e edite o `.env` e insira as credencias de acesso do Banco de Dados
@@ -28,7 +28,7 @@ Instalando as dependências:
 composer install
 ```
 
-Executando seed do banco de dados:
+Executando SEED do Banco de Dados:
 
 ```
 php dbseed.php
