@@ -79,7 +79,7 @@ class ClubController {
 
         $result = $this->clubGateway->useResource($input);
 
-        if (!$result['status']) {
+        if ($result['status'] == false) {
             $statusCode = 400;
         } else {
             $statusCode = 200;

@@ -10,6 +10,7 @@ class ClubGateway {
         $this->db = $db;    
     }
 
+    //get the clubs from the database
     public function findAll()
     {
         $statement = "
@@ -28,6 +29,7 @@ class ClubGateway {
         }
     }
 
+    //insert into new club
     public function insert(Array $input)
     {
         $statement = "
@@ -49,6 +51,7 @@ class ClubGateway {
         }
     }
 
+    //method to use resources of club
     public function useResource(Array $input)
     {
         $clubId = $input['clube_id'];
@@ -132,6 +135,7 @@ class ClubGateway {
             $this->db->commit();
 
             return array(
+                'status' => true,
                 'clube' => $nameClub,
                 'saldo_anterior' => $availableBalance,
                 'saldo_atual' => $newClubBalance,
