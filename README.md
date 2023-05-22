@@ -1,6 +1,8 @@
 # REST API DESENVOLVIDA COM PHP 8.2 E MYSQL
 
 **Pré-requisitos:** PHP, Composer, MySQL
+<br>
+**Opcional:** Insomnia REST
 
 ## Começando
 
@@ -41,6 +43,8 @@ php -S 127.0.0.1:8000 -t api
 ```
 
 Endpoints:
+
+- Caso queira, importe o arquivo `Insomnia-API-Endpoints.json` no *Insomnia REST* para ter acesso as rotas já configuradas.
 
 - Consumir saldo dos Recursos e dos Clubes (Use o método POST)
 
